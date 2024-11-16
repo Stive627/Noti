@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.7.2",
+    "nodemon": "^3.1.7"
+  },
+  "name": "notibackend",
+  "version": "1.0.0",
+  "description": "The backend of Noti",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stive627/NotiBackend.git"
+  },
+  "author": "Stive",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stive627/NotiBackend/issues"
+  },
+  "homepage": "https://github.com/Stive627/NotiBackend#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0"
+  }
+}
